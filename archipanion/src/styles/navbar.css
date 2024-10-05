@@ -1,0 +1,53 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    border: rgb(93, 93, 93) 1px solid;
+}
+.lg-heading a{
+    display: flex;
+    text-decoration: none;
+}
+.main-heading{
+    color: #fff;
+}
+.main-heading:hover{
+    color: rgb(162, 162, 162);
+    transition: 0.3s;
+}
+.lg-heading a img{
+    height: 50px;
+}
+.nav-tabs{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.nav-tabs div{
+    margin: 0 25px;
+}
+.nav-tabs div a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-tabs div a:hover{
+    color: #CC00DD;
+    transition: 0.3s;
+}
+.login-signup{
+    display: flex;
+    align-items: center;
+}
+.login-signup a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    border: #fff 1px solid;
+    padding: 4px 8px;
+    border-radius: 7px;
+}
